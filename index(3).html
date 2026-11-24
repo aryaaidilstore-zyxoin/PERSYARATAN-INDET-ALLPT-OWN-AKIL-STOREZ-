@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6b2b5"><title>Formulir Pendaftaran — AKIL STOREZ</title>
+<style>
+:root{--pink:#f5b0b4;--pink-dark:#c94f59;--ink:#292929;--muted:#686868;--line:#e7e7e7;--green:#268b55}
+*{box-sizing:border-box}body{margin:0;background:var(--pink);color:var(--ink);font:15px/1.55 Arial,system-ui,sans-serif}
+.wrap{width:min(100% - 24px,560px);margin:22px auto 42px}.banner{display:block;width:100%;height:190px;object-fit:cover;object-position:center 48%;border-radius:9px;margin:0 0 12px;box-shadow:0 1px 3px #9b505033}.brand{font-size:12px;letter-spacing:2.4px;font-weight:800;color:#8b343c;margin:0 4px 12px}
+.card{background:#fff;border:1px solid #eee;border-radius:9px;padding:20px 18px;margin:12px 0;box-shadow:0 1px 2px #9b50501a}
+.intro{border-top:8px solid var(--pink-dark);padding-top:18px}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--pink-dark);font-weight:800}h1{font-size:25px;line-height:1.25;margin:7px 0 8px}h2{font-size:17px;margin:0 0 13px}p{margin:7px 0;color:var(--muted)}
+.requirements{padding-left:23px;margin:8px 0 14px;font-size:13px;line-height:1.65}.requirements li{padding-left:2px;margin:2px 0}.field{padding:2px 0 4px}.field label{display:block;font-size:14px;margin-bottom:5px}.req{color:#c52222}.hint{font-size:12px;color:var(--muted);margin:0 0 12px}input[type=text],input[type=tel],select,textarea{width:100%;border:0;border-bottom:1px solid #bdbdbd;border-radius:0;padding:10px 2px;background:#fff;color:#222;font:14px Arial,system-ui;outline:none}textarea{min-height:74px;resize:vertical}input:focus,select:focus,textarea:focus{border-bottom:2px solid var(--pink-dark)}input[type=file]{width:100%;font-size:13px;padding:9px 0;color:#444}input[type=file]::file-selector-button{border:1px solid #ddd;background:#fafafa;border-radius:5px;padding:8px 10px;margin-right:9px;color:#333}.file-list{list-style:none;padding:0;margin:10px 0 0}.file-list li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 10px;border:1px solid #eee;border-radius:6px;margin:6px 0;font-size:12px}.file-name{min-width:0;overflow-wrap:anywhere}.remove-file{background:#fff0f0;color:#a32222;border:1px solid #f0cccc;padding:5px 9px;border-radius:5px;flex:0 0 auto}
+.consent{display:flex;align-items:flex-start;gap:9px;font-size:13px;color:#444}.consent input{margin-top:4px;flex:0 0 auto}.privacy{font-size:12px;background:#fff7f7;border-left:3px solid var(--pink-dark);padding:10px 12px;border-radius:4px;color:#5b4b4b}
+button{border:0;border-radius:5px;padding:12px 18px;background:#c71919;color:#fff;font-size:14px;cursor:pointer}button:disabled{opacity:.55;cursor:wait}.submit{width:auto;min-width:125px}.footerline{display:flex;align-items:center;gap:10px;margin:12px 0 4px;font-size:12px;color:#555}.progress{height:7px;background:#eee;border-radius:20px;flex:1;overflow:hidden}.progress span{display:block;width:100%;height:100%;background:#3aa66a}.status{padding:11px;border-radius:6px;margin-top:12px;font-size:13px;white-space:pre-wrap}.ok{background:#e8f6ed;color:#17663b}.err{background:#fff0f0;color:#9c2525}.small{font-size:12px;color:var(--muted)}
+@media(min-width:560px){.wrap{margin-top:30px}.card{padding:22px 20px}}
+</style></head>
+<body><main class="wrap">
+<img class="banner" src="banner-akil-storez.jpg" alt="Foto banner AKIL STOREZ">
+<div class="brand">AKIL STOREZ</div>
+<section class="card intro"><div class="eyebrow">PENDAFTARAN RESMI</div><h1>ISI SEMUA DATA-DATA SESUAI PERMINTAAN</h1><p>Lengkapi seluruh data dan persyaratan identitas di bawah ini dengan benar untuk proses verifikasi pendaftaran Owner / Partner AKIL STOREZ.</p><p><span class="req">*</span> Menunjukkan pertanyaan yang wajib diisi.</p><p><b>PERHATIAN:</b> Jika terdeteksi mengirim identitas palsu atau memanipulasi data, dana akan DIHANGUSKAN dan pendaftaran dapat ditolak serta dimasukkan ke BLACKLIST sesuai ketentuan AKIL STOREZ.</p></section>
+<form id="apply">
+<section class="card"><div class="field"><label for="documents">Upload Keseluruhan Identitas yang sudah dibuat <span class="req">*</span></label><p class="hint">Identitas yang perlu kamu upload. Unggah seluruh berkas persyaratan dalam satu bagian ini.</p><ol class="requirements">
+<li>FOTO KK ATAU KTP</li>
+<li>FOTO SELFIE PEGANG KK ATAU KTP</li>
+<li>FOTO MUKA</li>
+<li>REKAM LAYAR NOMOR ORANG TUA</li>
+<li>REKAM LAYAR NOMOR GURU</li>
+<li>REKAM LAYAR SHARE LOKASI 2 JENIS ATAS BAWAH</li>
+<li>POTO RUMAH TAMPAK DEPAN</li>
+<li>VIDEO MASUK KEDALAM RUMAH</li>
+<li>VIDEO SELFIE "SAYA [NAMA JB MU] RESMI MENJADI OWNER/PARTNER AKIL STOREZ"</li>
+</ol><p class="hint"><b>NOTE:</b> Semua Identitas WAJIB jelas SHARELOCK, NOMOR GURU dan NOMOR ORANG TUA harus di-record ketika mengambil/menyalin nomornya. Jika tidak, DANA AKAN DIHANGUSKAN dan di BLACKLIST permanen.</p><p class="hint">Format yang didukung: JPG, PNG, WEBP, MP4, MOV, atau PDF. Maksimal 10 file, 200 MB per file, total seluruh file 2 GB. Unggah dilakukan bertahap; jangan tutup halaman sampai selesai.</p><input id="documents" type="file" accept="image/jpeg,image/png,image/webp,video/mp4,video/quicktime,application/pdf" multiple required><p class="hint">Kamu bisa memilih file lagi untuk menambahkan foto atau video lain. File yang sudah dipilih tidak akan terganti.</p><ul id="selectedFiles" class="file-list" aria-live="polite"></ul></div></section>
+<section class="card"><div class="field"><label for="fullName">Nama Lengkap <span class="req">*</span></label><p class="hint">Isi nama lengkap sesuai identitas resmi.</p><input id="fullName" type="text" maxlength="120" autocomplete="name" required placeholder="Nama lengkap"></div></section>
+<section class="card"><div class="field"><label for="storeName">Nama JB/Store <span class="req">*</span></label><p class="hint">Isi nama JB/Store sesuai nama yang digunakan.</p><input id="storeName" type="text" maxlength="120" required placeholder="Nama JB/Store"></div></section>
+<section class="card"><div class="field"><label for="whatsapp">Nomor WhatsApp <span class="req">*</span></label><p class="hint">Isi nomor WhatsApp yang kamu gunakan untuk bergabung di AKIL STOREZ.</p><input id="whatsapp" type="tel" maxlength="30" autocomplete="tel" required placeholder="Contoh: 08xxxxxxxxxx"></div></section>
+<section class="card"><div class="field"><label for="address">Alamat Lengkap <span class="req">*</span></label><p class="hint">Isi alamat tempat tinggal sekarang, mulai dari nama jalan, kampung, gang, nomor rumah, RT/RW, kelurahan/desa, kecamatan, kabupaten/kota, provinsi, hingga kode pos.</p><textarea id="address" maxlength="600" required placeholder="Alamat lengkap saat ini"></textarea></div></section>
+<section class="card"><div class="field"><label for="parentName">Nama Orang Tua <span class="req">*</span></label><p class="hint">Isi nama orang tua yang kamu jadikan penanggung jawab.</p><input id="parentName" type="text" maxlength="120" required placeholder="Nama orang tua"></div></section>
+<section class="card"><div class="field"><label for="parentPhone">Nomor Orang Tua <span class="req">*</span></label><p class="hint">Isi nomor WhatsApp orang tua yang kamu jadikan penanggung jawab.</p><input id="parentPhone" type="tel" maxlength="30" required placeholder="Nomor WhatsApp orang tua"></div></section>
+<section class="card"><div class="field"><label for="schoolName">Nama Guru/Wali Kelas <span class="req">*</span></label><p class="hint">Isi nama guru atau wali kelas yang kamu jadikan penanggung jawab.</p><input id="schoolName" type="text" maxlength="120" required placeholder="Nama guru/wali kelas"></div></section>
+<section class="card"><div class="field"><label for="schoolPhone">Nomor Guru/Wali Kelas <span class="req">*</span></label><p class="hint">Isi nomor WhatsApp guru/wali kelas yang kamu jadikan penanggung jawab.</p><input id="schoolPhone" type="tel" maxlength="30" required placeholder="Nomor WhatsApp guru/wali kelas"></div></section>
+<section class="card"><div class="field"><label for="role">Pilihan Bergabung <span class="req">*</span></label><p class="hint">Pilih peran pendaftaran.</p><select id="role" required><option value="">Pilih peran</option><option value="Owner">Owner</option><option value="Partner">Partner</option></select></div></section>
+<section class="card"><div class="privacy">Dokumen yang diunggah disimpan di penyimpanan privat dan hanya dapat dilihat oleh admin AKIL STOREZ untuk keperluan verifikasi. Jangan mengunggah dokumen milik orang lain tanpa izin. Data hanya boleh dikumpulkan dengan persetujuan pihak yang bersangkutan.</div><div style="height:14px"></div><label class="consent"><input id="consent" type="checkbox" required><span>Saya menyatakan data yang saya isi benar, menyetujui penggunaan dokumen untuk verifikasi pendaftaran, dan memahami tujuan pengumpulan serta pengelolaan data tersebut. <span class="req">*</span></span></label><button class="submit" id="send" type="submit">Kirim</button><div id="formMsg" aria-live="polite"></div><div class="footerline"><div class="progress"><span></span></div><span>Halaman 1 dari 1</span></div></section>
+</form>
+<p class="small" style="text-align:center;margin-top:20px">© AKIL STOREZ</p>
+</main>
+
+<script>
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzOVPYGLsnqvzyI7lxw0S__C8ujSU-FkDmCx0rcuYLrLXXsKcGqBLYOn0hQOunLmzrH3A/exec";
+const $ = id => document.getElementById(id);
+function message(id,text,good=false){
+  $(id).className = "status " + (good ? "ok" : "err");
+  $(id).textContent = text;
+}
+
+// Kirim ke Apps Script melalui iframe agar tidak terhalang CORS browser.
+let requestCounter = 0;
+function callGoogle(payload){
+  return new Promise((resolve,reject)=>{
+    const requestId = "akil_" + Date.now() + "_" + (++requestCounter);
+    const iframe = document.createElement("iframe");
+    iframe.name = requestId;
+    iframe.style.display = "none";
+    iframe.setAttribute("aria-hidden","true");
+    const form = document.createElement("form");
+    form.method = "POST";
+    form.action = GOOGLE_SCRIPT_URL;
+    form.target = requestId;
+    form.style.display = "none";
+    const input = document.createElement("input");
+    input.type = "hidden";
+    input.name = "payload";
+    input.value = JSON.stringify({...payload, requestId});
+    form.appendChild(input);
+    document.body.append(iframe,form);
+    let finished = false;
+    const cleanup = ()=>{
+      window.removeEventListener("message",onMessage);
+      form.remove();
+      iframe.remove();
+    };
+    const finish = (fn,value)=>{
+      if(finished) return;
+      finished = true;
+      clearTimeout(timer);
+      cleanup();
+      fn(value);
+    };
+    const onMessage = event=>{
+      const d = event.data;
+      if(!d || d.type !== "AKIL_STOREZ_RESPONSE" || d.requestId !== requestId) return;
+      finish(resolve,d.result);
+    };
+    const timer = setTimeout(()=>finish(reject,new Error("Server tidak memberi jawaban. Periksa koneksi atau deployment Apps Script.")),180000);
+    window.addEventListener("message",onMessage);
+    form.submit();
+  });
+}
+function blobToBase64(blob){
+  return new Promise((resolve,reject)=>{
+    const reader=new FileReader();
+    reader.onload=()=>resolve(String(reader.result).split(",")[1]||"");
+    reader.onerror=()=>reject(new Error("Gagal membaca potongan file."));
+    reader.readAsDataURL(blob);
+  });
+}
+async function uploadOneFile(applicationId,file,onProgress){
+  const init=await callGoogle({action:"initUpload",applicationId,name:file.name,mimeType:file.type,size:file.size});
+  if(!init||!init.success) throw new Error(init?.message||"Gagal memulai unggahan "+file.name);
+  const chunkSize=5*1024*1024;
+  for(let start=0;start<file.size;start+=chunkSize){
+    const end=Math.min(start+chunkSize,file.size)-1;
+    const chunk=await blobToBase64(file.slice(start,end+1));
+    const result=await callGoogle({action:"uploadChunk",uploadId:init.uploadId,start,end,total:file.size,chunk});
+    if(!result||!result.success) throw new Error(result?.message||"Gagal mengunggah "+file.name);
+    onProgress(Math.min(end+1,file.size));
+    if(end===file.size-1){
+      if(!result.done||!result.file) throw new Error("Google Drive belum mengonfirmasi file selesai: "+file.name);
+      return {...result.file,size:file.size};
+    }
+    if(result.done) throw new Error("Server menyelesaikan file sebelum seluruh potongan terkirim.");
+  }
+  throw new Error("File kosong atau gagal diunggah: "+file.name);
+}
+
+const allowed = new Set(["image/jpeg","image/png","image/webp","video/mp4","video/quicktime","application/pdf"]);
+let selectedFiles = [];
+function formatSize(bytes){
+  if(bytes < 1024*1024) return (bytes/1024).toFixed(0)+" KB";
+  return (bytes/1024/1024).toFixed(1)+" MB";
+}
+function syncFileInput(){
+  const transfer = new DataTransfer();
+  selectedFiles.forEach(file=>transfer.items.add(file));
+  $("documents").files = transfer.files;
+}
+function renderSelectedFiles(){
+  const list=$("selectedFiles");
+  list.replaceChildren();
+  selectedFiles.forEach((file,index)=>{
+    const li=document.createElement("li");
+    const name=document.createElement("span");
+    name.className="file-name";
+    name.textContent=(index+1)+". "+file.name+" ("+formatSize(file.size)+")";
+    const remove=document.createElement("button");
+    remove.type="button";
+    remove.className="remove-file";
+    remove.textContent="Hapus";
+    remove.setAttribute("aria-label","Hapus "+file.name);
+    remove.addEventListener("click",()=>{
+      selectedFiles.splice(index,1);
+      syncFileInput();
+      renderSelectedFiles();
+      if(!selectedFiles.length) $("documents").required=true;
+    });
+    li.append(name,remove);
+    list.append(li);
+  });
+}
+$("documents").addEventListener("change",event=>{
+  const added=[...event.target.files];
+  const combined=[...selectedFiles,...added];
+  if(combined.length>10){
+    message("formMsg","Maksimal 10 file. File tambahan tidak ditambahkan.");
+    event.target.value="";
+    syncFileInput();
+    return;
+  }
+  selectedFiles=combined;
+  syncFileInput();
+  renderSelectedFiles();
+  $("documents").required=selectedFiles.length===0;
+  $("formMsg").textContent="";
+  $("formMsg").className="";
+});
+$("apply").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const files=[...selectedFiles], btn=$("send");
+  if(!files.length || files.length>10){message("formMsg","Pilih 1 sampai 10 file dokumen.");return;}
+  let total=0;
+  for(const f of files){
+    total += f.size;
+    if(!allowed.has(f.type) || f.size>200*1024*1024){
+      message("formMsg","Format file tidak didukung atau ada file lebih dari 200 MB.");return;
+    }
+  }
+  if(total>2*1024*1024*1024){
+    message("formMsg","Total ukuran semua dokumen maksimal 2 GB.");return;
+  }
+  btn.disabled=true;
+  btn.textContent="Mengirim…";
+  try{
+    const payload={
+      full_name:$("fullName").value.trim(),
+      store_name:$("storeName").value.trim(),
+      contact:$("whatsapp").value.trim(),
+      address:$("address").value.trim(),
+      parent_name:$("parentName").value.trim(),
+      parent_contact:$("parentPhone").value.trim(),
+      school_name:$("schoolName").value.trim(),
+      school_contact:$("schoolPhone").value.trim(),
+      role:$("role").value
+    };
+    const started=await callGoogle({action:"startApplication",full_name:payload.full_name});
+    if(!started||!started.success) throw new Error(started?.message||"Gagal memulai pendaftaran.");
+    const uploaded=[];
+    let completed=0;
+    for(let i=0;i<files.length;i++){
+      const f=files[i];
+      btn.textContent="Mengunggah "+(i+1)+"/"+files.length+"…";
+      const saved=await uploadOneFile(started.applicationId,f,bytes=>{
+        const overall=completed+bytes;
+        const percent=Math.floor(overall/total*100);
+        $("formMsg").className="status";
+        $("formMsg").textContent="Mengunggah "+(i+1)+"/"+files.length+": "+f.name+" ("+percent+"%)";
+      });
+      uploaded.push(saved);
+      completed+=f.size;
+    }
+    btn.textContent="Menyimpan data…";
+    const result=await callGoogle({action:"finishSubmit",applicationId:started.applicationId,...payload,files:uploaded});
+    if(!result || result.success!==true) throw new Error(result?.message || "Pendaftaran gagal dikirim.");
+    $("apply").reset();
+    selectedFiles=[];
+    renderSelectedFiles();
+    $("documents").required=true;
+    message("formMsg","Pendaftaran berhasil dikirim. Terima kasih telah mendaftar di AKIL STOREZ.",true);
+  }catch(err){
+    message("formMsg","Pendaftaran belum berhasil dikirim: "+(err.message||"Kesalahan tidak diketahui"));
+  }finally{
+    btn.disabled=false;
+    btn.textContent="Kirim";
+  }
+});
+
+</script></body></html>
